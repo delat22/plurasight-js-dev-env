@@ -1,0 +1,181 @@
+@charset utf-8;
+
+footer{
+    width: 100%;
+    display: block;
+    margin-top: 5%;
+}
+
+footer .foot-cont{
+    width: 100%;
+    background-color: #0b1163;
+    color: #fff;
+}
+
+footer .foot-cont .foot-row{
+    width: 100%;
+    display: flex;
+}
+
+.foot-address{
+    width: 23%;
+    margin-left: 2%;
+    margin-top: 2.5%;
+}
+
+.foot-blog{
+    width: 23%;
+    margin-left: 2%;
+    margin-top: 2.5%;
+}
+
+.foot-blog .blog-post{
+    width: 100%;
+    display: flex;
+    margin-top: 2.5%;
+}
+
+.foot-blog .blog-post img{
+    width: 50%;
+    margin-left: 5%;
+    height: 8em;
+}
+
+.foot-blog .blog-post .blog-post-dets{
+    width: 40%;
+    margin-left: 5%;
+    font-size: 0.8em;
+    
+}
+
+.link{
+    width: 23%;
+    margin-left: 2%;
+    margin-top: 2.5%;
+}
+
+.link li{
+    width: 100%;
+    display: block;
+    line-height: 2em;
+    margin-left: -15%;
+}
+
+.link li a{
+    color: #fff;
+    text-decoration: none;
+    
+}
+
+.subscribe{
+    width: 23%;
+    margin-left: 0%;
+    margin-top: 2.5%;
+}
+
+.subscribe form{
+    width: 100%;
+}
+
+.subscribe form input{
+    width: 70%;
+    display: block;
+    line-height: 4em;
+    height: 4em;
+}
+
+.subscribe form button{
+    width: 70%;
+    display: block;
+    line-height: 3em;
+    color: #fff;
+    margin-top: 5%;
+    background-color: #66ccff;
+    border: 0.1em solid #66ccff;
+    font-size: 1.2em;
+}
+
+.subscribe ul{
+    display: flex;
+    margin-left: -20%;
+}
+
+.subscribe ul li{
+    width: 29%;
+    margin-left: 4%;
+    text-align: center;
+    line-height: 4em;
+    background-color: rgba(0,0,0,0.3);
+    border-radius: 3em;
+}
+
+.subscribe ul li a{
+    color: #fff;
+}
+
+/*responsive design with media queries*/
+
+/*for phones and small width devices*/
+
+@media only screen and (min-width: 300px) and (max-width: 700px){
+    
+    body{
+        margin: 0;
+        padding: 0;
+    }
+    
+    footer .foot-cont .foot-row{
+        width: 100%;
+        display: block;
+    }
+    
+    .foot-address{
+        width: 90%;
+        margin-left: 5%;
+        margin-top: 10%;
+        float: left;
+    }
+    
+    .foot-blog{
+        width: 90%;
+        margin-left: 5%;
+        margin-top: 5%;
+        float: left;
+    }
+    
+    .link{
+       display: none;
+    }
+    
+    .subscribe{
+        width: 90%;
+        margin-left: 5%;
+    }
+    
+    .subscribe h2{
+        line-height: 3em;
+    }
+}
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+}
